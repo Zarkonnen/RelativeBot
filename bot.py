@@ -30,6 +30,8 @@ with open("areas.csv") as f:
 
 choice = random.choice(["volume", "duration", "area"])
 
+choice = "volume"
+
 if choice == "volume":
     a = random.choice(volumes)
     b = a
